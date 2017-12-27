@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="football_app_name">Football - Score Keeper</string>
+    <string name="basketball_app_name">Basketball - Score Keeper</string>
+    <string name="tennis_app_name">Tennis - Score Keeper</string>
+
+    <string name="first_team">Home</string>
+    <string name="second_team">Away</string>
+
+    <string name="first_player">Player A</string>
+    <string name="second_player">Player B</string>
+
+    <string name="back_button_text">Back</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="play_again_button_text">Play again</string>
+
+    <string name="goal_button_text">Goal</string>
+    <string name="three_points_button_text">+3 points</string>
+    <string name="two_points_button_text">+2 points</string>
+    <string name="free_throw_button_text">free throw</string>
+    <string name="point_button_text">Point</string>
+
+    <string name="tennis_match_winner">The winner is</string>
+</resources>

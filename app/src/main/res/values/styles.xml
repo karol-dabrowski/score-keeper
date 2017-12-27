@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="FootballTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#54a40f</item>
+        <item name="colorButtonNormal">#54a40f</item>
+    </style>
+
+    <style name="BasketballTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#fa8320</item>
+        <item name="colorButtonNormal">#fa8320</item>
+    </style>
+
+    <style name="TennisTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#fdf332</item>
+        <item name="colorButtonNormal">#fdf332</item>
+    </style>
+</resources>
