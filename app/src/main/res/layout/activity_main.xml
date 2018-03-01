@@ -7,55 +7,53 @@
     tools:context="pl.karoldabrowski.scorekeeper.MainActivity">
 
     <TextView
-        android:text="Football"
+        android:text="@string/football_title"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:gravity="center"
         android:fontFamily="serif-monospace"
         android:textStyle="bold"
-        android:textSize="56sp"
-        android:textColor="#000000"
+        android:textSize="@dimen/main_titles_text_size"
+        android:textColor="@android:color/black"
         android:background="@drawable/football"
         android:onClick="createFootballCounter"
-        android:layout_height="0dp" />
+        android:layout_height="@dimen/main_section_height" />
 
     <View
         android:layout_width="match_parent"
-        android:background="@android:color/holo_blue_dark"
-        android:layout_height="2dp">
+        style="@style/MainViewSectionsBorder">
     </View>
 
     <TextView
-        android:text="Basketball"
+        android:text="@string/basketball_title"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:gravity="center"
         android:fontFamily="serif-monospace"
         android:textStyle="bold"
-        android:textSize="56sp"
-        android:textColor="#000000"
+        android:textSize="@dimen/main_titles_text_size"
+        android:textColor="@android:color/black"
         android:background="@drawable/basketball"
         android:onClick="createBasketballCounter"
-        android:layout_height="0dp" />
+        android:layout_height="@dimen/main_section_height" />
 
     <View
         android:layout_width="match_parent"
-        android:background="@android:color/holo_blue_dark"
-        android:layout_height="2dp">
+        style="@style/MainViewSectionsBorder">
     </View>
 
     <TextView
-        android:text="Tennis"
+        android:text="@string/tennis_title"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:gravity="center"
         android:fontFamily="serif-monospace"
         android:textStyle="bold"
-        android:textSize="56sp"
-        android:textColor="#000000"
+        android:textSize="@dimen/main_titles_text_size"
+        android:textColor="@android:color/black"
         android:background="@drawable/tennis"
         android:onClick="createTennisCounter"
-        android:layout_height="0dp" />
+        android:layout_height="@dimen/main_section_height" />
 
 
 </LinearLayout>

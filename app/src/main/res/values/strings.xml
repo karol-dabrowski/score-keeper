@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Score Keeper</string>
+
+    <string name="football_title">Football</string>
+    <string name="basketball_title">Basketball</string>
+    <string name="tennis_title">Tennis</string>
+
     <string name="football_app_name">Football - Score Keeper</string>
     <string name="basketball_app_name">Basketball - Score Keeper</string>
     <string name="tennis_app_name">Tennis - Score Keeper</string>
@@ -21,4 +26,9 @@
     <string name="point_button_text">Point</string>
 
     <string name="tennis_match_winner">The winner is</string>
+    <string name="default_points">0</string>
+
+    <string name="set_1_text">Set 1</string>
+    <string name="set_2_text">Set 2</string>
+    <string name="set_3_text">Set 3</string>
 </resources>

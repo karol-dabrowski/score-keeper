@@ -18,4 +18,35 @@
         <item name="colorPrimary">#fdf332</item>
         <item name="colorButtonNormal">#fdf332</item>
     </style>
+
+    <style name="MainViewSectionsBorder">
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="TeamViewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="TeamsBorder">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="ScoreButtonMargins">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="ResultTableBorders">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
 </resources>
